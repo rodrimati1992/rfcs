@@ -376,7 +376,6 @@ The type parameter `C` is treated as the `()` type for the purposes of layout.
 #[repr(as( VALUE=true ))]
 struct WithMeta<T,const VALUE:bool>{
     value:T,
-    _marker:PhantomData<C>,
 }
 
 
