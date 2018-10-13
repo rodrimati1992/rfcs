@@ -5,9 +5,9 @@
 
 # Summary
 
-Add a `phantomgeneric` attribute to guarantee that a generic parameter (type/const) can not 
-change the layout of the type it is stored inside of (and any type containing that one) 
-regardless of what value it has.
+Add a `phantomgeneric` attribute to guarantee that generic parameters (type/const) can not 
+change the layout of the type they are stored inside of (and any type containing that one) 
+regardless of their value.
 
 # Motivation
 
