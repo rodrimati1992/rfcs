@@ -5,7 +5,7 @@
 
 # Summary
 
-Add a `phantomgeneric` attribute to guarantee that generic parameters (type/const) can not 
+Add a `phantomgeneric` attribute to guarantee that the listed generic parameters (type/const) can not 
 change the layout of the type they are stored inside of (and any type containing that one) 
 regardless of their value.
 
@@ -90,8 +90,8 @@ this attribute is applied to.
 
 ### Preconditions
 
-This attribute would require generic parameters (type and const) 
-to be used a generic argument of a type with the same attribute,or is a PhantomData .
+This attribute would require that fields mentioning generic parameters (type and const) 
+to be types with the same attribute,or PhantomData .
 
 ### Postconditions
 
